@@ -1,7 +1,31 @@
 aid: ndea
 name: Ndea
-description: Ndea is a company surfaced as a portfolio company of menlo-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ndea is an AI research and science laboratory founded by Francois Chollet
+  (creator of the Keras deep learning library and the ARC-AGI benchmark) and
+  Mike Knoop (co-founder of Zapier) with the mission of building frontier AI
+  systems that blend intuitive pattern recognition and formal reasoning into a
+  single unified architecture. Ndea treats program synthesis, enhanced by deep
+  learning, as a pathway to artificial general intelligence, arguing that
+  synthesizing discrete programs that explain observed data generalizes better
+  from few examples than deep learning alone. Its stated ambition is to build a
+  "factory for rapid scientific advancement." Both founders also serve on the
+  board of the nonprofit ARC Prize Foundation. Ndea publishes no public API,
+  developer portal, or SDK at this time; this profile tracks the company's
+  public web surface and is added to the API Evangelist network as a Menlo
+  Ventures portfolio lead.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://ndea.com/media/images/ndea-og-image.jpg
 url: https://raw.githubusercontent.com/api-evangelist/ndea/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- AGI
+- Machine Learning
+- Program Synthesis
+- Deep Learning
+- Reasoning
+- Research Lab
+- Science
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,24 @@ maintainers:
 common:
 - type: Website
   url: https://ndea.com
+- type: About
+  url: https://ndea.com/about
+- type: Jobs
+  url: https://ndea.com/jobs
+- type: Contact
+  url: https://ndea.com/contact
+- type: Twitter
+  url: https://x.com/ndea
+- type: YouTube
+  url: https://www.youtube.com/@ndeainc
+- type: Podcast
+  url: https://open.spotify.com/show/67zmiUKRMLQApaMnxpsHKY
+- type: DomainSecurity
+  url: security/ndea-domain-security.yml
+- type: LLMsTxt
+  url: llms/ndea-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

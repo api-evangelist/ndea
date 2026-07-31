@@ -1,0 +1,21 @@
+# Ndea
+
+> Ndea is an AI research and science laboratory founded by Francois Chollet (creator of Keras and the ARC-AGI benchmark) and Mike Knoop (co-founder of Zapier) to build frontier AI systems that blend intuitive pattern recognition with formal reasoning into a unified architecture. Ndea pursues program synthesis, enhanced by deep learning, as a pathway to artificial general intelligence, with the goal of building "a factory for rapid scientific advancement." Ndea publishes no public API, developer portal, or SDK at this time; this profile tracks the company's public web surface.
+
+## Company
+- [Ndea home](https://ndea.com): Mission, approach, and program-synthesis-toward-AGI thesis.
+- [About](https://ndea.com/about): Founders Francois Chollet and Mike Knoop, and the research approach.
+- [Jobs](https://ndea.com/jobs): Open roles at the lab.
+- [Contact](https://ndea.com/contact): How to reach the team.
+
+## Media
+- [YouTube (@ndeainc)](https://www.youtube.com/@ndeainc): Ndea podcast and talks.
+- [Spotify podcast](https://open.spotify.com/show/67zmiUKRMLQApaMnxpsHKY): Ndea podcast audio feed.
+- [X / Twitter](https://x.com/ndea): Company updates.
+
+## Related
+- [ARC Prize Foundation](https://arcprize.org): Nonprofit for open AGI research co-founded by Ndea's founders (ARC-AGI benchmark).
+
+## Notes
+- No public API, OpenAPI/Swagger, MCP server, or SDK was discoverable as of 2026-07-20.
+- No /.well-known/ discovery documents, robots.txt, sitemap.xml, or llms.txt are published on ndea.com.
