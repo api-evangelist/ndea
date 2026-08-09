@@ -1,0 +1,27 @@
+generated: '2026-07-20'
+method: probed
+source: live HTTP probes of https://ndea.com/.well-known/* and /llms.txt
+host: ndea.com
+endpoints:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- path: /llms.txt
+  status: 404
+  file: null
+notes: >-
+  No well-known discovery documents are published. Ndea (ndea.com) is a static
+  corporate/marketing site for an AGI research lab with no API, OAuth, or agent
+  surface. Absence of these records is the expected, honest result.

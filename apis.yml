@@ -1,19 +1,15 @@
 aid: ndea
 name: Ndea
-description: >-
-  Ndea is an AI research and science laboratory founded by Francois Chollet
-  (creator of the Keras deep learning library and the ARC-AGI benchmark) and
-  Mike Knoop (co-founder of Zapier) with the mission of building frontier AI
-  systems that blend intuitive pattern recognition and formal reasoning into a
-  single unified architecture. Ndea treats program synthesis, enhanced by deep
-  learning, as a pathway to artificial general intelligence, arguing that
-  synthesizing discrete programs that explain observed data generalizes better
-  from few examples than deep learning alone. Its stated ambition is to build a
-  "factory for rapid scientific advancement." Both founders also serve on the
-  board of the nonprofit ARC Prize Foundation. Ndea publishes no public API,
-  developer portal, or SDK at this time; this profile tracks the company's
-  public web surface and is added to the API Evangelist network as a Menlo
-  Ventures portfolio lead.
+description: Ndea is an AI research and science laboratory founded by Francois Chollet (creator of the
+  Keras deep learning library and the ARC-AGI benchmark) and Mike Knoop (co-founder of Zapier) with the
+  mission of building frontier AI systems that blend intuitive pattern recognition and formal reasoning
+  into a single unified architecture. Ndea treats program synthesis, enhanced by deep learning, as a pathway
+  to artificial general intelligence, arguing that synthesizing discrete programs that explain observed
+  data generalizes better from few examples than deep learning alone. Its stated ambition is to build
+  a "factory for rapid scientific advancement." Both founders also serve on the board of the nonprofit
+  ARC Prize Foundation. Ndea publishes no public API, developer portal, or SDK at this time; this profile
+  tracks the company's public web surface and is added to the API Evangelist network as a Menlo Ventures
+  portfolio lead.
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -35,7 +31,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-08'
 tags:
 - Company
 - Artificial Intelligence
@@ -71,8 +67,16 @@ common:
   url: security/ndea-domain-security.yml
 - type: LLMsTxt
   url: llms/ndea-llms.txt
+- type: WellKnown
+  url: well-known/ndea-well-known.yml
+- type: Careers
+  url: https://ndea.com/jobs
+- type: X
+  url: https://x.com/ndea
 x-enrichment:
   date: '2026-07-20'
   status: minimal
   artifacts_added: 2
   pass: local-v1
+x-merged-from:
+- ndea-com
