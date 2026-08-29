@@ -10,6 +10,17 @@ description: Ndea is an AI research and science laboratory founded by Francois C
   ARC Prize Foundation. Ndea publishes no public API, developer portal, or SDK at this time; this profile
   tracks the company's public web surface and is added to the API Evangelist network as a Menlo Ventures
   portfolio lead.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
