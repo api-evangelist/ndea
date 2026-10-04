@@ -47,7 +47,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AGI
-- Machine-Learning
+- Machine Learning
 - Program Synthesis
 - Deep Learning
 - Reasoning
@@ -63,6 +63,7 @@ tags_raw:
 - Reasoning
 - Research Lab
 - Science
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
